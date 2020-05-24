@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Class Solution
- * {}[]() 字符串规则判断
- */
 class Solution
 {
     public $val = 0;
