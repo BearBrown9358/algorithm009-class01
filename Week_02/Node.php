@@ -1,6 +1,6 @@
 <?php
 
-
+/** 树结构 基础类 */
 class Node
 {
     public $val = null;
