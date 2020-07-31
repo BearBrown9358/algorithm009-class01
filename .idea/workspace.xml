@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88796a9d-0766-4239-832f-07eb139d6831" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/bfs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/bfs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_04/dfs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/dfs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_04/bfs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            <state relative-caret-position="536">
+              <caret line="85" selection-start-line="85" selection-end-line="103" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -31,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/Week_04/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="280">
-                <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <first_editor relative-caret-position="800">
+                <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -87,8 +84,8 @@
         <option value="$PROJECT_DIR$/Week_05/README.md" />
         <option value="$PROJECT_DIR$/Week_06/README.md" />
         <option value="$PROJECT_DIR$/Week_04/dfs.php" />
-        <option value="$PROJECT_DIR$/Week_04/README.md" />
         <option value="$PROJECT_DIR$/Week_04/bfs.php" />
+        <option value="$PROJECT_DIR$/Week_04/README.md" />
       </list>
     </option>
   </component>
@@ -205,12 +202,12 @@
       <workItem from="1595990607330" duration="293000" />
       <workItem from="1596085774546" duration="2078000" />
       <workItem from="1596126437085" duration="5000" />
-      <workItem from="1596161128659" duration="2369000" />
+      <workItem from="1596161128659" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86085000" />
+    <option name="totallyTimeSpent" value="86167000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -484,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_04/dfs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_04/bfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -498,18 +488,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week_04/dfs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week_04/bfs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="536">
+          <caret line="85" selection-start-line="85" selection-end-line="103" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_04/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="280">
-            <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <first_editor relative-caret-position="800">
+            <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
