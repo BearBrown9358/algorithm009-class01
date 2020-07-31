@@ -107,3 +107,44 @@ def BFS(graph, start, end):
     # other processing work
     ...
 ```
+
++ 二分查找代码模版
+```php
+    #php
+    
+    /**
+     * binarySearch constructor.
+     * 二分查找
+     * @param array $array
+     * @param int $target
+     */
+    public function binarySearch($array, $target)
+    {
+        $left  = 0;
+        $right = count($array) - 1;
+
+        while ($left <= $right) {
+            $mid = $right + $left >> 1; // 位元算 去中点
+            if ($array[$mid] == $target) {
+                return $mid;
+            } elseif ($array[$mid] > $target) {
+                $right = $mid - 1;
+            } else {
+                $left = $mid + 1;
+            }
+
+            return ;
+        }
+    }
+```
+
+```javascript
+/* JavaScript */
+let left = 0, right = len(array) - 1
+while (left <= right) {
+  let mid = (left + right) >> 1
+  if (array[mid] === target) { /*find the target*/; return }
+  else if (array[mid] < target) left = mid + 1
+  else right = mid - 1
+}
+```
