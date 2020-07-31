@@ -53,4 +53,55 @@ class bfs
         return $result;
     }
 
+    /**
+     * 剑指offer 32
+     * 从上到下打印二叉树
+     * @param TreeNode $root
+     * @return Integer[][]
+     */
+    function levelOrder($root) {
+        if(empty($root)) return [];
+        $queue = array($root);
+        $res = array();
+        $lev = 0;
+        while($queue){
+            $c = count($queue);
+            for($i=0;$i<$c;$i++){
+                $a = array_shift($queue);
+                $res[$lev][]=$a->val;
+                if($a->left) $queue[]=$a->left;
+                if($a->right) $queue[]=$a->right;
+            }
+            $lev++;
+        }
+        return $res;
+    }
+
+    /**
+     *  BFS模版
+     * @param $root
+     * @return  array res
+     */
+    public function myBfs($root){
+        if (empty($root)) return [];
+        $queue = array($root);
+        $res = [];
+        $level = 0;
+        
+        while ($queue){
+            $c = count($queue);
+            for ($i = 0 ; $i < $c ; $i ++ ){
+                $node = array_shift($queue);
+                $val = $node->val;
+                $res[$level][] = $val;
+
+                if ($node->left) $queue[] = $node->left;
+                if ($node->right) $queue[] = $node->right;
+            }
+
+            $level ++ ;
+        }
+        return $res;
+    }
+
 }

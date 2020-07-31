@@ -4,7 +4,10 @@ class dfs
 {
 
     /**
+     * dfs constructor.
      * 深度优先 递归
+     * @param $node
+     * @param $visited
      */
     function dfs($node, $visited){
         # terminator

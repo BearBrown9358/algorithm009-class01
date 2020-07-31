@@ -50,26 +50,22 @@
      * 广度优先遍历
      * @param $root tree
      */
-    public function bfs($root)
-    {
-        $result      = [];
-        $this->queue = [$root];
-
-        while (count($root) > 0) {
-            $level  = [];
-            $length = count($root);
-
-            for ($i = 0; $i < $length; $i++) {
-                $node    = array_pop($this->queue);
-                $level[] = $node->val;
-                if ($node->left) array_unshift($this->queue, $node->left);
-                if ($node->right) array_unshift($this->queue, $node->right);
+    public function bfs($root) {
+        if(empty($root)) return [];
+        $queue = array($root);
+        $res = array();
+        $lev = 0;
+        while($queue){
+            $c = count($queue);
+            for($i=0;$i<$c;$i++){
+                $a = array_shift($queue);
+                $res[$lev][]=$a->val;
+                if($a->left) $queue[]=$a->left;
+                if($a->right) $queue[]=$a->right;
             }
-
-            $result[] = $level;
+            $lev++;
         }
-
-        return $result;
+        return $res;
     }
 ```
 
