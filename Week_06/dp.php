@@ -1,7 +1,9 @@
-### DP动态规划
-+ DP模版
-```php
-    #php
+<?php
+
+
+class dp
+{
+
     /**
      * dp constructor.
      * @param $text1
@@ -33,4 +35,4 @@
 
         return $dp[$m][$n];
     }
-```
+}
